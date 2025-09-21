@@ -1,0 +1,22 @@
+.article-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+	&__item {
+		border: 1px solid #cba6f7;
+        padding: 20px;
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+	}
+
+	&__date {
+		color: #f5c2e7;
+	}
+
+    &__points {
+        color: #a6e3a1;
+    }
+}
