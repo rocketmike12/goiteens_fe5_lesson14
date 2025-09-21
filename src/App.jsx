@@ -6,7 +6,7 @@ import { ArticleList } from "./components/NewsList/ArticleList";
 
 import styles from "./App.module.scss";
 
-axios.defaults.baseURL = "http://hn.algolia.com/api/v1/";
+axios.defaults.baseURL = "https://hn.algolia.com/api/v1/";
 
 class App extends Component {
 	constructor() {
